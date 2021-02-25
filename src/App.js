@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import List from './components/List/List';
 
 function App() {
   return (
@@ -9,26 +10,7 @@ function App() {
         <h2>Лабораторная №2. Динамический список</h2>
       </div>
       <div>
-        <input type="text" />
-        <button>Добавить</button>
-        <ul>
-          <li>
-            Купить картошки
-            <button>[x]</button>
-          </li>
-          <li>
-            Помыть пол
-            <button>[x]</button>
-          </li>
-          <li>
-            Покормить рыб
-            <button>[x]</button>
-          </li>
-          <li>
-            Выгулять кошку
-            <button>[x]</button>
-          </li>
-        </ul>
+        <List />
       </div>
     </div>
   );
